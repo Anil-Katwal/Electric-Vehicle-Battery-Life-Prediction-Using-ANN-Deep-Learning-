@@ -51,9 +51,10 @@ Clone the repo and set up the environment:
 
 git clone https://github.com/Anil-Katwal/Electric-Vehicle-Battery-Life-Prediction-Using-ANN-Deep-Learning-.git
 cd Electric-Vehicle-Battery-Life-Prediction-Using-ANN-Deep-Learning-
-python3 -m venv env
-source env/bin/activate
-pip install -r requirements.txt
+
+- ✅ python3 -m venv env
+- ✅ source env/bin/activate
+- ✅ pip install -r requirements.txt
 ______
 ## Run the app:
 streamlit run app.py
