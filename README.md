@@ -75,7 +75,7 @@ This project is licensed under the MIT License.
 ## 🙋‍♂️ Maintainer
 Anil Katwal
 📧 Email : Aniljungkatwal@gmail.com
-''' bash 
+```bash
 ## 📁 Project Structure
 ├── app.py                      # Streamlit app entry point
 ├── battery-life-prediction.ipynb  # Jupyter notebook for training & exploration
