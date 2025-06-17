@@ -48,22 +48,16 @@ The model outputs the **predicted battery life in percentage**.
 
 Clone the repo and set up the environment:
 
-```bash
-git clone https://github.com/your-username/Electric-Vehicle-Battery-Life-Prediction-Using-ANN-Deep-Learning-.git
+
+git clone https://github.com/Anil-Katwal/Electric-Vehicle-Battery-Life-Prediction-Using-ANN-Deep-Learning-.git
 cd Electric-Vehicle-Battery-Life-Prediction-Using-ANN-Deep-Learning-
 python3 -m venv env
 source env/bin/activate
 pip install -r requirements.txt
+______
 ## Run the app:
 streamlit run app.py
-## 📁 Project Structure
-├── app.py                      # Streamlit app entry point
-├── battery-life-prediction.ipynb  # Jupyter notebook for training & exploration
-├── battery_life_model.h5       # Trained ANN model
-├── scaler.pkl                  # StandardScaler for preprocessing
-├── label_encoder.pkl           # LabelEncoder for categorical features
-├── requirements.txt            # Python dependencies
-└── README.md                   # You're here!
+
 ## 📌 Future Improvements
 🔄 Real-time data integration from EV sensors
 
@@ -81,3 +75,12 @@ This project is licensed under the MIT License.
 ## 🙋‍♂️ Maintainer
 Anil Katwal
 📧 Email : Aniljungkatwal@gmail.com
+''' bash 
+## 📁 Project Structure
+├── app.py                      # Streamlit app entry point
+├── battery-life-prediction.ipynb  # Jupyter notebook for training & exploration
+├── battery_life_model.h5       # Trained ANN model
+├── scaler.pkl                  # StandardScaler for preprocessing
+├── label_encoder.pkl           # LabelEncoder for categorical features
+├── requirements.txt            # Python dependencies
+└── README.md                   # You're here!
